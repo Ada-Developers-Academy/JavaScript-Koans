@@ -12,7 +12,7 @@ KOAN_FILES = SRC_FILES.pathmap("#{PROB_DIR}/%f")
 task :default => :walk_the_path
 
 task :walk_the_path do
-  `open koans/jskoans.htm`
+  `open koans/the_path.htm`
 end
 
 directory PROB_DIR
